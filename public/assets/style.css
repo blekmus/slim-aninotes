@@ -1,0 +1,179 @@
+*:focus {
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+/* landing page */
+.landing {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.landing .title {
+    font-size: 40px;
+    font-weight: 200;
+    display: inline;
+}
+
+.landing input {
+    font-size: 40px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+
+.landing input::placeholder {
+    color: rgb(191, 191, 191);
+    font-weight: 200;
+}
+
+.landing button {
+    display: block;
+}
+
+.landing .press {
+    position: absolute;
+    bottom: 10%;
+    font-weight: 300;
+    font-size: 15px;
+    color: #acacac;
+    letter-spacing: 0.8px;
+}
+
+.landing .press.press-red {
+    color: red;
+}
+
+/* user page */
+.user {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.user .title-header {
+    margin-bottom: 110px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.user .title {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.user article {
+    background-color: #fffeff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 15px;
+    box-shadow: 0px 2px 17px 0px rgba(0, 0, 0, 0.1);
+}
+
+.user figure img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.user header h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.user section p,
+.user footer p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #502259f0;
+}
+
+.user .not-found {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.user .not-found p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #acacac;
+    letter-spacing: 0.8px;
+}
+
+.user .not-found img {
+    width: 220px;
+}
+
+.edit-entry {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.edit-entry article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.edit-entry img {
+    border-radius: 15px;
+}
+
+.edit-entry header h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.edit-entry textarea {
+    width: 100%;
+    border: none;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.edit-entry button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #323232;
+    color: white;
+}
