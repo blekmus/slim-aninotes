@@ -1,6 +1,6 @@
 # AniNotes
 
-This site allows you to read and update notes a user has posted in a single place. This is my college PHP final project.
+View and edit Anilist notes in one place. This is my college PHP final project.
 
 ## Implementation
 
